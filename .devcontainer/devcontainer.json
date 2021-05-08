@@ -2,5 +2,13 @@
     "extensions": [
         "dbaeumer.vscode-eslint",
         "eamodio.gitlens"
-    ]
+	],
+	"portsAttributes": {
+		"3333": {
+			"label": "rtrtrhgfht"
+		},
+		"39021": {
+			"label": "juju"
+		}
+	}
 }
