@@ -1,6 +1,16 @@
 {
     "extensions": [
-        "dbaeumer.vscode-eslint",
-        "eamodio.gitlens"
-    ]
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens"
+	],
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "16"
+		}
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"remoteUser": "node"
 }
